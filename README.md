@@ -11,4 +11,5 @@
 2. Change `PRIVATE_KEY`, `ADDRESS`, `KEY_ID`, and `CONTRACT_NAME` to yours
 3. If your account uses ECDSA_secp256k1, comment out line 6 in main.js and uncomment line 5
 4. Put your new contract code on line 49
-5. In a termimal, run `node main.js`
+5. If you're using mainnet, change `"https://rest-testnet.onflow.org"` on line 9 to `"https://rest-mainnet.onflow.org"`
+6. In a termimal, run `node main.js`
