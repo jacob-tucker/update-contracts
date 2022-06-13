@@ -1,0 +1,31 @@
+{
+	"emulators": {
+		"default": {
+			"port": 3569,
+			"serviceAccount": "emulator-account"
+		}
+	},
+	"contracts": {},
+	"networks": {
+		"emulator": "127.0.0.1:3569",
+		"mainnet": "access.mainnet.nodes.onflow.org:9000",
+		"testnet": "access.devnet.nodes.onflow.org:9000"
+	},
+	"accounts": {
+		"emulator-account": {
+			"address": "f8d6e0586b0a20c7",
+			"key": "2f00df4062a66d1779b673f7022ab821a410d42c4e7e2373fd8c80bdc0031bbc"
+		},
+		"testnet-account": {
+			"address": "0x15a90b2b88e0db6f",
+			"key": {
+				"type": "hex",
+				"index": 0,
+				"signatureAlgorithm": "ECDSA_P256",
+				"hashAlgorithm": "SHA3_256",
+				"privateKey": "299abca9c3ca90e57fa1f18c419a85dc7a661b6266525245623f0707abc29f10"
+			}
+		}
+	},
+	"deployments": {}
+}
